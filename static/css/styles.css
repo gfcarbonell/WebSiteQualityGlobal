@@ -111,6 +111,12 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+.main-header-logo .material-placeholder {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 5px #000;
+  background-color: #fff;
+}
 .main-header-logo .material-placeholder >img {
   height: 40px;
   width: 40px;
@@ -132,6 +138,15 @@ img {
 }
 .indicators {
   z-index: 100;
+}
+.slider .indicators {
+  bottom: 1%;
+}
+.caption >h3 {
+  font-size: 1.3em;
+}
+.caption >h5 {
+  font-size: 1em;
 }
 .item-content >img {
   width: 250px;
@@ -208,49 +223,12 @@ img {
   width: 320px;
   transform: translate(-50%, -50%);
 }
-.post-btn-modal {
-  width: 100%;
-  height: 100%;
-  display: block;
-  border: 2px solid #000;
-  transition: 0.3s;
-}
-.post-btn-modal:hover {
-  border: 2px solid #fff;
-}
-.post-btn-modal >img {
-  width: 100%;
-  height: 100%;
-}
-.post {
-  height: 350px;
-  display: flex;
-  flex-direction: column;
-}
-.post-main {
-  width: 100%;
-  height: 50%;
-}
-.post-second {
-  height: 50%;
-  display: flex;
-  width: 100%;
-}
-.post-second-third {
-  height: 100%;
-  width: 50%;
-}
-.post-second-fourth {
-  height: 100%;
-  width: 50%;
-}
 @media (min-width: 576px) {
-  .post {
-    height: 600px;
+  .caption >h3 {
+    font-size: 2.2em;
   }
-  .post-main,
-  .post-second {
-    height: 100%;
+  .caption >h5 {
+    font-size: 1.5em;
   }
   .inside-styles {
     width: 600px;
@@ -259,8 +237,8 @@ img {
     font-size: 2.7em;
   }
   .main-header-logo .material-placeholder >img {
-    height: 90px;
-    width: 90px;
+    height: 95px;
+    width: 95px;
   }
 }
 @media (min-width: 992px) {
