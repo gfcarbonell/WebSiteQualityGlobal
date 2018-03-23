@@ -27,7 +27,7 @@ class WebSectionPhilosophy extends React.Component {
               <div className="inside-styles z-depth-4">
                   <h3 className="white-text font-shadow-black font-weight-bold"> Quiénes somos</h3>
                   <p className="white-text font-shadow-black">
-                      <strong> Quality Global </strong>, es una empresa moderna y de calidad dedicada a la Asesoría,
+                      <strong> Quality Global</strong>, es una empresa moderna y de calidad dedicada a la Asesoría,
                       Consultoría y Capacitación en el ámbito de la Gestión Publica y Empresarial,
                       con amplia experiencia, capacidad, efectividad y competitividad de nuestro personal.
                   </p>
@@ -42,8 +42,8 @@ class WebSectionPhilosophy extends React.Component {
               <div className="inside-styles z-depth-4">
                   <h3 className="white-text font-shadow-black font-weight-bold"> Misión </h3>
                   <p className="white-text font-shadow-black">
-                      Ser una Empresa  Líder en Asesoría, Consultoría y
-                      Capacitación en Gestión Pública y Empresarial.
+                      Brindar servicios con   <strong> Alta Calidad </strong>, planteando soluciones innovadoras y eficientes,
+                      superando las expectativas de nuestros clientes.
                   </p>
               </div>
             </div>
@@ -56,7 +56,7 @@ class WebSectionPhilosophy extends React.Component {
               <div className="inside-styles z-depth-4">
                   <h3 className="white-text font-shadow-black font-weight-bold"> Visión </h3>
                   <p className="white-text font-shadow-black">
-                      Ser una Empresa  Líder en Asesoría, Consultoría y
+                      Ser una Empresa Líder en Asesoría, Consultoría y
                       Capacitación en Gestión Publica y Empresarial.
                   </p>
               </div>

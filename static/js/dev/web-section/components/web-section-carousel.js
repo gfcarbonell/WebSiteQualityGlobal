@@ -32,10 +32,10 @@ class WebSectionCarousel extends React.Component {
               <img src="http://www.delarosaysegura.com/wp-content/uploads/2011/12/servicios-corporativos-1500x630.jpg"/>
           </a>
           <a className="carousel-item" href="#one!">
-              <img src="http://esaed.com/wp-content/uploads/2016/09/GESTION-PUBLICA-1024x876.jpg"/>
+              <img src={require(`./../../../../media/images/jpg/Management-2.jpg`)}/>
           </a>
           <a className="carousel-item" href="#one!">
-              <img src="http://razonesdecuba.cubadebate.cu/wp-content/uploads/2017/10/gestionempre.jpg"/>
+              <img src={require(`./../../../../media/images/jpg/Inventary-5.jpg`)}/>
           </a>
       </div>
     )

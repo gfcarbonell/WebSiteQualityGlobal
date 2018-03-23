@@ -17,6 +17,7 @@ class DashboardWebSectionHome extends React.Component {
         <div className="">
             <WebSectionMenu />
             <WebSectionCarousel />
+            <WebSectionService />
             <WebSectionPhilosophy />
         </div>
     )

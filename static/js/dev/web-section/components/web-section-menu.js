@@ -17,15 +17,16 @@ class WebSectionMenu extends React.Component {
         <div>
             <div className="z-depth-4">
                 <Zoom left>
-                    <h3 className="white-text font-shadow-black font-weight-bold padding-2">
+                    <h4 className="white-text font-shadow-black font-weight-bold padding-2">
                         Bienvenidos
-                    </h3>
+                    </h4>
                 </Zoom>
-                <p className="sub-border">
+                    <p className="sub-border">
 
-                </p>
-                <p className="border-bottom-red-2">
-                </p>
+                    </p>
+                    <p className="border-bottom-red-2">
+                    </p>
+
             </div>
             <div className="row padding-up-down-2">
                 <article className="col s12 m6 l4 item">
