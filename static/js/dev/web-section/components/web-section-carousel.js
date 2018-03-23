@@ -29,13 +29,13 @@ class WebSectionCarousel extends React.Component {
     return (
       <div className="carousel carousel-slider">
           <a className="carousel-item" href="#one!">
-              <img src="http://www.delarosaysegura.com/wp-content/uploads/2011/12/servicios-corporativos-1500x630.jpg"/>
+              <img src={require(`./../../../../media/images/jpg/Management-8.jpg`)}/>
           </a>
           <a className="carousel-item" href="#one!">
               <img src={require(`./../../../../media/images/jpg/Management-2.jpg`)}/>
           </a>
           <a className="carousel-item" href="#one!">
-              <img src={require(`./../../../../media/images/jpg/Inventary-5.jpg`)}/>
+              <img src={require(`./../../../../media/images/jpg/Management-9.jpg`)}/>
           </a>
       </div>
     )
