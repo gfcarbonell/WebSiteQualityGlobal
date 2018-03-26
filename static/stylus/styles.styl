@@ -320,7 +320,19 @@ img
 }
 .collapsible
 	margin 0
-
+.embed-page
+		box-shadow 1px 1px 6px black
+		position fixed
+		right 0px
+		border-radius .5em 0 0 .5em
+		z-index 10000
+		transition .3s
+		top 75%
+		right -274px
+		&:hover
+			right 0
+			top 0
+			height 500px
 @media (min-width: 576px)
 		.post
 				width 50%

@@ -1,6 +1,7 @@
 const path = require("path");
 var webpack = require("webpack");
 var ModernizrWebpackPlugin = require("modernizr-webpack-plugin");
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
     entry: ["./static/js/dev/main/routers.js"],
@@ -8,6 +9,11 @@ module.exports = {
         path: path.resolve(__dirname, "./static/js"),
         filename: "bundle.js"
     },
+    plugins: [
+        // ...
+        new UglifyJsPlugin()
+        // ...
+    ],
     module: {
         rules: [
             {

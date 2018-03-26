@@ -21,13 +21,14 @@ class DashboardWebPortal extends React.Component {
         <div>
             <DashBoardHeader />
               <SNAside />
-                <section>
-                    <main>
-                        <Switch>
-                            <Route path="/" component={DashboardWebSectionHome} />
-                        </Switch>
-                    </main>
-                </section>
+
+              <section>
+                  <main>
+                      <Switch>
+                          <Route path="/" component={DashboardWebSectionHome} />
+                      </Switch>
+                  </main>
+              </section>
               <SystemAside />
             <WebFooter />
         </div>

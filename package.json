@@ -25,6 +25,8 @@
     "react": "^16.2.0",
     "react-background-slideshow": "^1.0.3",
     "react-dom": "^16.2.0",
+    "react-facebook": "^4.2.1",
+    "react-facebook-sdk": "^1.1.1",
     "react-images": "^0.5.17",
     "react-parallax": "^1.6.1",
     "react-photo-gallery": "^6.0.22",
@@ -35,6 +37,7 @@
     "react-router-redux": "^4.0.8",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
+    "uglifyjs-webpack-plugin": "^1.2.4",
     "url-loader": "^1.0.1",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12"
@@ -42,6 +45,7 @@
   "dependencies": {
     "jquery": "^3.3.1",
     "modernizr-webpack-plugin": "^1.0.7",
+    "package.json": "^2.0.1",
     "react-materialize": "^2.1.2"
   }
 }

@@ -82,6 +82,13 @@ const virtuals = [
   require(`./../../../../media/images/jpg/Virtual-5.jpg`)
 ];
 
+const developments = [
+  require(`./../../../../media/images/jpg/Software-3.jpg`),
+  require(`./../../../../media/images/gif/QG-1.gif`),
+  require(`./../../../../media/images/jpg/Software-4.jpg`),
+  require(`./../../../../media/images/jpg/Software-5.jpg`)
+];
+
 const coaching = [
   require(`./../../../../media/images/jpg/Coaching-3.jpg`),
   require(`./../../../../media/images/jpg/Coaching-4.jpg`),
@@ -147,6 +154,15 @@ const virtualsServices = [
     "Inventarios Físicos", "Inventario de Activos Fijos",
     "Inventarios Asociados", "Outsourcing", "Consultoría en Gestión de Inventarios",
     "Servicio de Codificación y Etiquetado", "Cursos de Capacitación y otros."
+]
+
+const developmentsServices = [
+    "Desarrollo de Software Profesional",
+    "Sistema de Planilla y Asistencia",
+    "Sistema Logístico e Inventario",
+    "Sistema Presupuestal",
+    "Sistema de Tesorería",
+    "Sistema Tributario."
 ]
 
 const coachingServices = [
@@ -1515,11 +1531,15 @@ class WebSectionService extends React.Component {
                         </div>
                     </article>
                     {
-                      //Desarrollo de Software para Entidades Públicas.
+                      /*
+                        ----------------------------------------------------------
+                        Desarrollo de Software para Entidades Públicas.
+                        ----------------------------------------------------------
+                      */
                     }
                     <Zoom bottom>
                         <article className="post">
-                            <a className="post-modal waves-effect waves-light modal-trigger" href="#post1">
+                            <a className="post-modal waves-effect waves-light modal-trigger" href="#post11">
                                 <figure>
                                     <div>
                                         <img src={require(`./../../../../media/images/jpg/Software-1.jpg`)} />
@@ -1533,6 +1553,119 @@ class WebSectionService extends React.Component {
                             </a>
                         </article>
                     </Zoom>
+                    <article id="post11" className="modal modal-fullscreen">
+                        {
+                          //Header
+                        }
+                        <div className="modal-header">
+                            {
+                              //Nav Bar
+                            }
+                            <div className="modal-nav light-green darken-1">
+                                <a href="#!" className="modal-action modal-close waves-effect waves-green center-align font-shadow-black">
+                                    <i className="material-icons prefix small">chevron_left</i>
+                                </a>
+                                <div>
+                                      <h2 className="white-text font-shadow-black font-weight-bold">
+                                          Quality Global
+                                      </h2>
+                                </div>
+                                <figure>
+                                      <MediaBox src={require(`./../../../../media/images/png/QG3.png`)} caption=""/>
+                                </figure>
+                            </div>
+                        </div>
+                        {
+                          //Content
+                        }
+                        <div className="modal-content">
+                              {
+                                //Body
+                              }
+                              <div className="modal-content-body">
+                                  {
+                                    //Detail
+                                  }
+                                  <div className="modal-detail">
+                                      <figure className="modal-detail-main">
+                                          <div>
+                                              <Bounce top>
+                                                  <img className="waves-effect waves-light" src={require(`./../../../../media/images/jpg/Software-2.jpg`)} />
+                                              </Bounce>
+                                          </div>
+                                          <figcaption className="modal-detail-main-content">
+                                              <Zoom>
+                                                  <h5 className="center-align white-text font-shadow-black font-weight-bold">
+                                                      Desarrollo de Software para Entidades Públicas
+                                                  </h5>
+                                              </Zoom>
+                                              <Zoom left>
+                                                  <p>
+                                                      Enfocamos el <strong> Desarrollo de Software </strong> a las necesidades de cada entidad y
+                                                      realizamos el diseño enfocados al usuario final y así darle una mejor experiencia y
+                                                      facilidad, aumentando la productividad con una información centralizada, segura y en
+                                                      tiempo real, utilizamos las tecnologias de ultima generacion tanto en software de
+                                                      <strong> Escritorio, Aplicación (Android - IOS) y Web</strong> mediante óptimos
+                                                      <strong> Lenguajes de Programación en Back-End </strong> tales como: <strong> Python (DJango), Ruby (Rails), NodeJS (Express),
+                                                      Java (Spring, Hibernate, JavaServerFace), C# (EntityFramework), PHP (Laravel)</strong> y en <strong> Front-End </strong>
+                                                      utilizamos <strong>Javascript (EcmaScript 6)</strong> ademas de <strong>Framework y Librerías</strong> tales como:
+                                                      <strong> JQuery, BabkboneJS (M.V.C.), ReactJS y VueJS</strong>, ademas utilizamos los nuevos Patrones de Flujos como <strong> Redux y Vuex </strong>
+                                                      con una gran variedad de
+                                                      <strong> Gestores de Base de Datos</strong> como:<strong> SQLServer, MySQL, MariaDB, PostgreSQL y Microsoft Access</strong>,
+                                                      todo de acuerdo a la necedidades de cada entidad.
+                                                  </p>
+                                              </Zoom>
+                                          </figcaption>
+                                      </figure>
+                                      {
+                                        //List
+                                      }
+                                      <Zoom right>
+                                          <ul className="collapsible box-shadow-black">
+                                            <li>
+                                              <div className="collapsible-header">
+                                                <i className="material-icons green-text">assignment</i>
+                                                    Nuestros Servicios Incluyen:
+                                              </div>
+                                              <div className="collapsible-body">
+                                                  <ul className="">
+                                                      {
+                                                          developmentsServices.map((item, index)=>{
+                                                          return (
+                                                                  <Slide>
+                                                                      <li className="carousel-item" href="#one!">
+                                                                           <i className="material-icons green-text prefix">check</i>
+                                                                           {item}
+                                                                      </li>
+                                                                  </Slide>
+                                                          )
+                                                        })
+                                                      }
+                                                  </ul>
+                                              </div>
+                                            </li>
+                                          </ul>
+                                      </Zoom>
+                                      {
+                                        //Carousel
+                                      }
+                                      <Fade  bottom>
+                                          <div className="carousel margin-up-down-1 box-shadow-black">
+                                             {
+                                                 developments.map((photo, index)=>{
+                                                 return (
+                                                            <a className="carousel-item" href="#one!">
+                                                                <img src={photo} />
+                                                            </a>
+                                                 )
+                                               })
+                                             }
+                                           </div>
+                                      </Fade>
+                                  </div>
+                              </div>
+                        </div>
+                    </article>
                     {
                       /*
                         ----------------------------------------------------------
